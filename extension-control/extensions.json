@@ -47,6 +47,13 @@
     ],
     "deprecated": {
         "andrewhertog.codex-editor-extension": true,
+        "Daimler.sechub": {
+            "disallowInstall": true,
+            "extension": {
+                "id": "Mercedes-Benz.sechub",
+                "displayName": "SecHub"
+            }
+        },
         "dieghernan.oveflow-theme": {
             "disallowInstall": true,
             "extension": {
