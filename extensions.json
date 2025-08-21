@@ -1094,7 +1094,12 @@
     "repository": "https://github.com/vshaxe/vshaxe.git"
   },
   "NativeScript.nativescript": {
-    "repository": "https://github.com/NativeScript/nativescript-vscode-extension"
+    "repository": "https://github.com/NativeScript/nativescript-vscode-extension",
+    "custom": [
+      "npm install --include=dev",
+      "./node_modules/.bin/tsc -p ./src && npx cpx src/common/*.sh out/common",
+      "npx vsce package -o extension.vsix"
+    ]
   },
   "naumovs.color-highlight": {
     "repository": "https://github.com/egonyans/vscode-ext-color-highlight"
