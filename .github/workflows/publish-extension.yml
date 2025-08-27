@@ -34,7 +34,7 @@ jobs:
       - uses: actions/setup-node@v4.3.0
         if: ${{ env.DO_DOWNLOAD == 'true' }}
         with:
-          node-version: "20.x"
+          node-version: "22.x"
       - run: npm install
         if: ${{ env.DO_DOWNLOAD == 'true' }}
       - run: npm i -g @vscode/vsce pnpm
