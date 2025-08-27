@@ -157,7 +157,7 @@ async function buildVersion(extension, publishContext) {
                     fs.access(path.join(publishContext.repo, "yarn.lock"), (error) => resolve(!error));
                 });
                 try {
-                    await exec(`${yarn ? "yarn" : "nvm exec npm"} install`, { cwd: packagePath });
+                    await exec(`${yarn ? "yarn" : "npm"} install`, { cwd: packagePath });
                 } catch (e) {
                     const pck = JSON.parse(await fs.promises.readFile(path.join(packagePath, "package.json"), "utf-8"));
                     // try to auto migrate from vscode: https://code.visualstudio.com/api/working-with-extensions/testing-extension#migrating-from-vscode
