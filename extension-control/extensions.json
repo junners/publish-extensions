@@ -534,6 +534,9 @@
                 "displayName": "sqlfluff"
             }
         },
+        "ForceConfigControl.lightningflowscanner": {
+            "disallowInstall": true
+        },
         "DrMerfy.overtype": true,
         "jroesch.lean": true,
         "moalamri.inline-fold": true,
