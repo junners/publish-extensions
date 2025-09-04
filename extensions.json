@@ -915,7 +915,7 @@
       "npm run package"
     ],
     "extensionFile": "ms-python-insiders.vsix",
-    "pythonVersion": "3.8",
+    "pythonVersion": "3.9",
     "timeout": 30
   },
   "MS-SarifVSCode.sarif-viewer": {
