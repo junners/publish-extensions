@@ -12,9 +12,6 @@
   "adpyke.codesnap": {
     "repository": "https://github.com/kufii/CodeSnap"
   },
-    "adpyke.codesnap": {
-    "repository": "https://github.com/kufii/CodeSnap"
-  },
   "adrianhumphreys.silverstripe": {
     "repository": "https://github.com/adrhumphreys/vscode-silverstripe",
     "custom": [
