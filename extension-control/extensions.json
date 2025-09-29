@@ -41,7 +41,8 @@
         "soldevdesigne.pythonweb",
         "cursorai.cursor-usage",
         "rust-analyzerr.rust-analyzer",
-        "rust-anlyzer.rust-anlyzer"
+        "rust-anlyzer.rust-anlyzer",
+        "ethereum.solidity"
     ],
     "search": [
         {
