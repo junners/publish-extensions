@@ -42,7 +42,8 @@
         "cursorai.cursor-usage",
         "rust-analyzerr.rust-analyzer",
         "rust-anlyzer.rust-anlyzer",
-        "ethereum.solidity"
+        "ethereum.solidity",
+        "nethereum.solidity"
     ],
     "search": [
         {
