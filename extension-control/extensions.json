@@ -79,7 +79,14 @@
         }
     ],
     "deprecated": {
-        "HerrInformatiker.ai-rules-sync": {
+        "iFlow.iflow-cli-vscode-ide-companion": {
+            "disallowInstall": true,
+            "extension": {
+                "id": "iflow-cli.iflow-cli-vscode-ide-companion",
+                "displayName": "iFlow CLI"
+            }
+        },
+         "HerrInformatiker.ai-rules-sync" : {
             "disallowInstall": true,
             "extension": {
                 "id": "HerrInformatiker.ai-rules-syncer",
