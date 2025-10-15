@@ -43,7 +43,10 @@
         "rust-analyzerr.rust-analyzer",
         "rust-anlyzer.rust-anlyzer",
         "ethereum.solidity",
-        "nethereum.solidity"
+        "nethereum.solidity",
+        "tailwindcss-main.tailwindcss-cursor",
+        "ab-498.cppplayground",
+        "ab-498.httpformat"
     ],
     "search": [
         {
