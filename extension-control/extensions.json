@@ -611,13 +611,7 @@
             }
         },
         "erral.erral-zcmlLanguageConfiguration": true,
-        "corekraft.flow-linter-vsx": {
-            "disallowInstall": true,
-            "extension": {
-                "id": "corekraft.flow-lint-ovsx",
-                "displayName": "Flow Linter for Salesforce Flow Metadata"
-            }
-        }
+        "corekraft.flow-linter-vsx": true
     },
     "migrateToPreRelease": {
         "julialang.language-julia-insider": {
